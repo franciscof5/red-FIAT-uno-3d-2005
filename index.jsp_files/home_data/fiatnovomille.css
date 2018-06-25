@@ -1,0 +1,102 @@
+/* Geral */
+
+body {background-color: #A3001C;}
+body,div,td,input,select,textarea {font-family:verdana,arial,helvetica;font-size:9px;color:#E13001}
+input, select, textarea {border:#DB6C00 1px solid;background-color:#FD9D22;color:#E13001}
+body, form {margin:0px;padding:0px}
+img {border:0px}
+select{}
+body, textarea {
+	scrollbar-arrow-color:#C14000;
+	scrollbar-track-color:#FA5604;
+	scrollbar-face-color:#FF7B1A;
+	scrollbar-highlight-color:#C14000;
+	scrollbar-shadow-color:#FA5604;
+	scrollbar-3dlight-color:#FA5604;
+	scrollbar-darkshadow-color:#C14000;
+}
+.DF-alert {background-color:#FF9999}
+
+.home{border: #000000 1px solid;background-color:#FFFFFF;color:#000000}
+
+.no-border {border:0px}
+
+#home-1Div {position:absolute;left:190px;top:53px;z-index:10;width:594px;height:126px}
+#home-2Div {position:absolute;left:160px;top:179px;z-index:10;width:624px;height:173px}
+#home-3Div {position:absolute;left:201px;top:352px;z-index:10;width:583px;height:63px}
+
+#carroMnSupSubItensDiv {position:absolute;left:243px;top:96px;visibility:hidden;z-index:10;}
+#siteMnSupSubItensDiv {position:absolute;left:296px;top:96px;visibility:hidden;z-index:10;}
+
+.bg{background-image:url(../../img/bg.gif);background-repeat:no-repeat;width:582px;padding:18px 0px 0px 23px}
+.bg-header{background-image:url(../../img/bg_header.gif);background-repeat:no-repeat}
+.bg-lateral{background-image:url(../../img/bg_lateral.jpg);background-repeat:no-repeat;width:206px;height:362px}
+.bg-footer{background-image:url(../../img/bg_footer.gif);background-repeat:no-repeat}
+
+.mn{margin:21px 16px 0px 21px}
+
+.bg-conteudo{background-image:url(../../img/bg_conteudo.gif);background-repeat:no-repeat;padding:8px 0px 0px 9px;width:555px;height:336px}
+.bg-conheca{background-image:url(../../img/conheca/bg_conheca.gif);background-repeat:no-repeat;padding:6px 0px 0px 9px;width:555px;height:338px}
+.bg-conheca1{background-image:url(../../img/conheca/bg_conheca1.gif);background-repeat:no-repeat;padding:6px 0px 0px 9px;width:555px;height:338px}
+.bg-conheca2{background-image:url(../../img/conheca/bg_conheca2.gif);background-repeat:no-repeat;padding:6px 0px 0px 9px;width:555px;height:338px}
+.bg-fotos{background-image:url(../../img/fotos/bg_fotos.gif);background-repeat:no-repeat;padding:8px 0px 0px 9px;width:555px;height:336px}
+.bg-fotos1{background-image:url(../../img/fotos/bg_fotos1.gif);background-repeat:no-repeat;padding:8px 0px 0px 9px;width:555px;height:336px}
+.bg-fotos2{background-image:url(../../img/fotos/bg_fotos2.gif);background-repeat:no-repeat;padding:8px 0px 0px 9px;width:555px;height:336px}
+.bg-historia{background-image:url(../../img/historia/bg_historia.gif);background-repeat:no-repeat;padding:8px 0px 0px 9px;width:555px;height:336px}
+.bg-historia1{background-image:url(../../img/historia/bg_historia1.gif);background-repeat:no-repeat;padding:8px 0px 0px 9px;width:555px;height:336px}
+.bg-apaixonados{background-image:url(../../img/apaixonados/bg_apaixonados.gif);background-repeat:no-repeat;padding:8px 0px 0px 9px;width:555px;height:336px}
+.bg-apaixonados1{background-image:url(../../img/apaixonados/bg_apaixonados1.gif);background-repeat:no-repeat;padding:8px 0px 0px 9px;width:555px;height:336px}
+.bg-print{background-image:url(../../img/conheca/img_ficha.gif);background-repeat:no-repeat;height:35px}
+
+.box{padding:4px 2px 4px 2px}
+.box-thumb{margin:0px 6px 5px 0px}
+.box-wall{padding:17px 25px 0px 12px}
+.box-historia{padding:2px 3px 0px 8px}
+.box-envie{margin:34px 0px 0px 107px}
+.box-webcards{padding:0px 10px 0px 10px}
+
+/* Fonts */
+
+.f-preto {color:#000000}
+.f-cinza-1 {color:#333333}
+.f-cinza-2 {color:#666666}
+.f-cinza-3 {color:#999999}
+.f-cinza-4 {color:#CCCCCC}
+.f-branco {color:#FFFFFF}
+.f-vermelho{color:#E13001}
+.f-marrom{color:#861C00}
+
+.f-0 {font-size:9px}
+.f-1 {font-size:10px}
+.f-2 {font-size:13px}
+.f-3 {font-size:16px}
+.f-4 {font-size:18px}
+
+.lh-0 {line-height:9px}
+.lh-1 {line-height:10px}
+.lh-2 {line-height:13px}
+.lh-3 {line-height:16px}
+.lh-4 {line-height:18px}
+
+/* Backgrounds */
+
+.bg-none {background-image:none}
+
+.bg-preto {background-color:#000000}
+.bg-cinza-1 {background-color:#333333}
+.bg-cinza-2 {background-color:#666666}
+.bg-cinza-3 {background-color:#999999}
+.bg-cinza-4 {background-color:#CCCCCC}
+.bg-branco {background-color:#FFFFFF}
+.bg-amarelo{background-color:#FFC129}
+.bg-laranja{background-color:#FF7329}
+.bg-vermelho{background-color:#A50E0E}
+
+
+/* Links */
+
+a:link, a:visited, a:active {color:#000000; text-decoration:none}
+a:hover {color:#000000; text-decoration:underline}
+
+a.link-vermelho:link, a.link-vermelho:visited, a.link-vermelho:active {color:#E13001; text-decoration:none}
+a.link-vermelho:hover {color:#E13001; text-decoration:underline}
